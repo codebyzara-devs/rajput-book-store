@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Account | Rajput Book Store</title><link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="logo" href="index.html">Rajput <span>Book Store</span></a>
+  <nav><a href="index.html">Home</a><a href="products.html">Books</a><a class="active" href="account.html">Account</a><a class="cart-link" href="cart.html">Cart <span id="cart-count">0</span></a></nav>
+</header>
+<main class="section narrow">
+  <div class="form-card">
+    <p class="eyebrow">WELCOME BACK</p><h1>Create an account</h1><p class="muted">Demo form for the bookstore interface.</p>
+    <form id="account-form">
+      <label>Full name<input required type="text" placeholder="Your name"></label>
+      <label>Email<input required type="email" placeholder="you@example.com"></label>
+      <label>Password<input required type="password" minlength="6" placeholder="••••••••"></label>
+      <button class="btn" type="submit">Create Account</button>
+    </form>
+    <p id="form-message" class="success"></p>
+  </div>
+</main>
+<footer><p>© 2026 Rajput Book Store. All rights reserved.</p></footer>
+<script src="js/app.js"></script><script src="js/account.js"></script>
+</body>
+</html>
